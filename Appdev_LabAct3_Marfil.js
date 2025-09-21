@@ -37,7 +37,7 @@ function showStars(rows){
         console.log(pattern); //prints the pattern of stars after the inner loop is done
     }
 }
-        console.log("\nPROBLEM 2: Show Stars");
+        console.log("\nPROBLEM 2: Show Stars\n");
         showStars(rows); // the last digit of my student number is 0, so it should print 2 rows
 
 
@@ -55,7 +55,7 @@ function isPrime(n){
     }
     return true; //no divisor 
 }
-        console.log("PROBLEM 3: Prime Number Checker: \n");
+        console.log("\nPROBLEM 3: Prime Number Checker: \n");
         console.log("is "+ n + " a prime number? " + isPrime(n));
 
 
@@ -70,7 +70,7 @@ function multiplicationTable(num){
         }
         
 }
-    console.log("\nPROBLEM 4: Multiplication Table");
+    console.log("\nPROBLEM 4: Multiplication Table\n"); // THE OUTPUT WILL ALL BE 0 BECAUSE MY STUDENT NUMBER NUMBER ENDS IN 0
     multiplicationTable(num);
 
 
