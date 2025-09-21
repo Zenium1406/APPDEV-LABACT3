@@ -18,6 +18,11 @@ function calculateGrade(score){
             return 'F';
         }
 }
+        console.log("PROBLEM 1: Calculate Grade\n"); //
+        console.log("Your grade is: " + calculateGrade(score) ); // the last digit of my student number is 0, so it should print "Your grade is: F"
+
+
+
 //PROBLEM 2 Show Stars
 let rows = base_number + 2; // the last digit of my student number is 0
 function showStars(rows){
@@ -30,19 +35,52 @@ function showStars(rows){
         console.log(pattern); //prints the pattern of stars after the inner loop is done
     }
 }
-//problem 3 
+        console.log("\nPROBLEM 2: Show Stars");
+        showStars(rows); // the last digit of my student number is 0, so it should print 2 rows
+
+
+
+
+
+
+//PROBLEM 3 Prime Number checker
 let n = base_number + 10; 
 function isPrime(n){
-    
 
-
+    if(n<=1) 
+        return false;
+    for(let i=2; i<n; i++){
+        if(n%i==0){
+            return false; //found a divisor
+        }
+    }
+    return true; //no divisor 
 }
+        console.log("PROBLEM 3: Prime Number Checker: \n");
+        console.log("is "+ n + " a prime number? " + isPrime(n));
 
 
 
 
-console.log("PROBLEM 1: Calculate Grade\n"); //
-console.log("Your grade is: " + calculateGrade(score) ); // the last digit of my student number is 0, so it should print "Your grade is: F"
-console.log("\nPROBLEM 2: Show Stars");
-showStars(rows); // the last digit of my student number is 0, so it should print 2 rows
+
+// Problem 4: Multiplication Table 
+let num = base_number;
+function multiplicationTable(num){
+
+        for(let i=1; i<=10; i++){ //iterates i until 10
+            console.log(num + "x" + i +"=" + (num*i)); //multiplies num by i and prints the result
+
+        }
+        
+}
+    console.log("\nPROBLEM 4: Multiplication Table");
+    multiplicationTable(num);
+
+
+
+
+
+
+
+
 
