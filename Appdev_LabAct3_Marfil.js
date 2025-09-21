@@ -1,3 +1,5 @@
+
+
 let base_number = 0; // the last digit of my student number is 0
 
 
@@ -22,7 +24,7 @@ function calculateGrade(score){
         console.log("Your grade is: " + calculateGrade(score) ); // the last digit of my student number is 0, so it should print "Your grade is: F"
 
 
-
+        
 //PROBLEM 2 Show Stars
 let rows = base_number + 2; // the last digit of my student number is 0
 function showStars(rows){
@@ -37,9 +39,6 @@ function showStars(rows){
 }
         console.log("\nPROBLEM 2: Show Stars");
         showStars(rows); // the last digit of my student number is 0, so it should print 2 rows
-
-
-
 
 
 
@@ -58,8 +57,6 @@ function isPrime(n){
 }
         console.log("PROBLEM 3: Prime Number Checker: \n");
         console.log("is "+ n + " a prime number? " + isPrime(n));
-
-
 
 
 
